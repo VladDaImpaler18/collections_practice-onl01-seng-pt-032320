@@ -48,6 +48,6 @@ def find_a(array)
   return output
 end
 
-def sum_array
-  
+def sum_array(array)
+  array.inject{
 end
