@@ -54,5 +54,6 @@ end
 
 def add_s(array)
   output=[]
-  array.each(|word| word.join)
+  array.each{|word| output << word.join("s")}
+  return output
 end
