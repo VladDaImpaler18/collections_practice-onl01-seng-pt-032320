@@ -1,3 +1,6 @@
+# (c) 2020 Vladimir Jimenez, all rights reserved
+# For Online Software Engineering PT - First Mile
+
 def sort_array_asc(array)
   return array.sort
 end
