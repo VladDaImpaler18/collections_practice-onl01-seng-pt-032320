@@ -54,5 +54,5 @@ end
 
 def add_s(array)
   output=[]
-  array.each()
+  array.each(|word| word.join)
 end
