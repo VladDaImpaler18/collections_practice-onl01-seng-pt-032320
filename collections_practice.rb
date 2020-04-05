@@ -53,7 +53,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  output=[]
-  array.each{|word| output << word.join("s")}
-  return output
+  array.each_with_index
 end
