@@ -43,7 +43,7 @@ end
 def find_a(array)
   output=[]
   array.select do |word|
-    output << |word| if word[0].upcase=="A"
+    output << word if word[0].upcase=="A"
   end
   return output
 end
